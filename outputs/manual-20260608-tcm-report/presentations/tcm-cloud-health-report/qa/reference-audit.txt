@@ -1,0 +1,13 @@
+No external reference deck was supplied.
+Quality target was derived from the user's request and the current app build.
+
+GitHub MCP search was performed for PowerPoint MCP options.
+Selected reference: trsdn/mcp-server-ppt
+URL: https://github.com/trsdn/mcp-server-ppt
+Reason: It focuses on Microsoft PowerPoint automation through the native COM API, which matches the local verification path used for this deck: open the file in PowerPoint, apply transitions/animations, and export PNG previews.
+
+Other search results reviewed:
+- ykuwai/ppt-mcp
+- GongRzhe/Office-PowerPoint-MCP-Server
+- ltc6539/mcp-ppt
+- supercurses/powerpoint

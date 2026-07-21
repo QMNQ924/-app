@@ -1,0 +1,31 @@
+TCM Cloud Health App deck story polish v4
+Date: 2026-06-12
+
+Final PPTX:
+C:\Users\Administrator\Documents\中医云健康app\outputs\manual-20260608-ppt-redesign\output\中医云健康App汇报-新版-v4.pptx
+
+Alias:
+C:\Users\Administrator\Documents\中医云健康app\outputs\manual-20260608-ppt-redesign\output\tcm-cloud-health-redesign-v4.pptx
+
+Story changes:
+1. Reframed the deck from a feature checklist into a product-report journey:
+   user enters, sees risk, gets advice, records data, and continues follow-up.
+
+2. Rewrote rigid titles and subtitles on slides 1-8 to emphasize user value:
+   today's risk, symptom-to-action consult, data-to-risk detection, disease records,
+   and everyday recovery management.
+
+3. Replaced slide 9:
+   from PPT layout QA to product completion, covering login, health records,
+   consult feedback, content collection, and local data clearing.
+
+4. Replaced slide 10:
+   from delivery checklist to roadmap, covering backend sync, clinician console,
+   real model integration, push reminders, and data compliance.
+
+Verification artifacts:
+- PowerPoint preview export: outputs/manual-20260608-ppt-redesign/presentations/tcm-health-redesign/preview-v4
+- Contact sheet: outputs/manual-20260608-ppt-redesign/presentations/tcm-health-redesign/qa/redesign-contact-sheet-v4.png
+
+Result:
+The deck now reads more like a product report and less like a generated function list, while preserving the v3 layout safety fixes.

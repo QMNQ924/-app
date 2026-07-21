@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#F7FBFF"/>
+<stop offset="55%" stop-color="#F4F7FB"/>
+<stop offset="100%" stop-color="#EAF7F4"/>
+</linearGradient>
+<linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#0F8F83"/>
+<stop offset="100%" stop-color="#32C0B3"/>
+</linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#2F6BFF"/>
+<stop offset="100%" stop-color="#8DB0FF"/>
+</linearGradient>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+<feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#10202E" flood-opacity=".12"/>
+</filter>
+</defs>
+
+    <rect x="54" y="58" width="1092" height="784" rx="52" fill="#ffffff" filter="url(#shadow)"/>
+    <rect x="54" y="58" width="1092" height="108" rx="52" fill="url(#g2)"/>
+    <text x="94" y="116" fill="#FFFFFF" font-family="Microsoft YaHei" font-size="30" font-weight="700">AI 在线问诊</text>
+    <text x="94" y="146" fill="#EAF1FF" font-family="Microsoft YaHei" font-size="15">输入症状、时长、接触史和指标，输出模拟建议</text>
+    <rect x="94" y="202" width="292" height="70" rx="20" fill="#EEF7FF"/>
+    <text x="118" y="243" fill="#1D3D80" font-family="Microsoft YaHei" font-size="18" font-weight="700">咳嗽咳痰两周</text>
+    <rect x="94" y="292" width="286" height="90" rx="22" fill="#0F8F83"/>
+    <text x="120" y="330" fill="#FFFFFF" font-family="Microsoft YaHei" font-size="16" font-weight="700">症状快捷标签</text>
+    <text x="120" y="358" fill="#D9FFF8" font-family="Microsoft YaHei" font-size="13">发热 · 黄疸 · 盗汗 · 皮疹</text>
+    <rect x="430" y="220" width="612" height="162" rx="28" fill="#F5FBF8"/>
+    <text x="458" y="262" fill="#17212B" font-family="Microsoft YaHei" font-size="18" font-weight="700">我先按“肺结核”方向分析</text>
+    <text x="458" y="298" fill="#5A6B7A" font-family="Microsoft YaHei" font-size="15">中医辨证：肺阴亏虚、气阴两虚</text>
+    <text x="458" y="334" fill="#5A6B7A" font-family="Microsoft YaHei" font-size="15">建议动作：规范治疗、定期复查、清淡饮食、补液休息</text>
+    <rect x="430" y="414" width="292" height="192" rx="28" fill="#F8FBFD" stroke="#E5ECF2"/>
+    <text x="458" y="456" fill="#17212B" font-family="Microsoft YaHei" font-size="17" font-weight="700">建议动作</text>
+    <text x="458" y="494" fill="#5A6B7A" font-family="Microsoft YaHei" font-size="14">· 记录体温和心率</text>
+    <text x="458" y="524" fill="#5A6B7A" font-family="Microsoft YaHei" font-size="14">· 先观察症状趋势</text>
+    <text x="458" y="554" fill="#5A6B7A" font-family="Microsoft YaHei" font-size="14">· 保持通风和休息</text>
+    <rect x="746" y="414" width="296" height="192" rx="28" fill="#FFF6F8" stroke="#F8D1DB"/>
+    <text x="774" y="456" fill="#17212B" font-family="Microsoft YaHei" font-size="17" font-weight="700">就医提醒</text>
+    <text x="774" y="494" fill="#5A6B7A" font-family="Microsoft YaHei" font-size="14">咯血增多、胸闷气促、持续高热</text>
+    <text x="774" y="524" fill="#5A6B7A" font-family="Microsoft YaHei" font-size="14">或药物不良反应时要及时就医。</text>
+    <rect x="94" y="670" width="948" height="112" rx="26" fill="#10202E"/>
+    <text x="122" y="718" fill="#FFFFFF" font-family="Microsoft YaHei" font-size="17" font-weight="700">内容仅用于健康管理与科普，不能替代医生诊断和治疗。</text>
+    <text x="122" y="750" fill="#BFE4DC" font-family="Microsoft YaHei" font-size="14">输入不同症状会切换到不同的疾病方向和建议模板。</text>
+  
+</svg>

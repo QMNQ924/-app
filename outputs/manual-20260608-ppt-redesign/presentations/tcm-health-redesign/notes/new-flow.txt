@@ -1,0 +1,10 @@
+Selected MCP reference: ykuwai/ppt-mcp
+Reason: real-time PowerPoint control through COM automation, SVG icon insertion, template and animation support.
+Backup reference: trsdn/mcp-server-ppt
+Production workflow:
+1. Capture real app pages with Chrome/Puppeteer.
+2. Generate supplementary visual assets.
+3. Build a 16:9 editable PPTX with pptxgenjs text/shapes plus image assets.
+4. Post-process with PowerPoint COM for transitions and animations.
+5. Export 1920x1080 previews and inspect contact sheet.
+6. Record element/proportion QA results.

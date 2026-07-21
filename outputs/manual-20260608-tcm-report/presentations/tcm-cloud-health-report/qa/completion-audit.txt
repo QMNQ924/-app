@@ -1,0 +1,40 @@
+TCM Cloud Health App PPT completion audit
+Date: 2026-06-08
+
+Final PPTX:
+C:\Users\Administrator\Documents\中医云健康app\outputs\manual-20260608-tcm-report\output\中医云健康App汇报.pptx
+
+ASCII verification alias:
+C:\Users\Administrator\Documents\中医云健康app\outputs\manual-20260608-tcm-report\output\tcm-cloud-health-report.pptx
+
+Requirements and evidence:
+1. Find a GitHub MCP for PowerPoint.
+   Evidence: GitHub search found PowerPoint MCP options. Selected reference is trsdn/mcp-server-ppt at https://github.com/trsdn/mcp-server-ppt because it supports PowerPoint automation through native COM API.
+
+2. Generate a report PPT for the current 中医云健康 app.
+   Evidence: Final deck has 10 slides covering product positioning, value, architecture, home dashboard, AI consult, disease library, health trend, restore loop, content/data, and build/QA.
+
+3. Page ratio must be 16:9.
+   Evidence: PowerPoint COM opened the Chinese-named file and reported SlideWidth=960, SlideHeight=540, Ratio=1.7778.
+
+4. Content should be editable and the style should be simple.
+   Evidence: PPTX text extraction shows slide text is stored as native PowerPoint text runs. Shapes/cards/charts are generated as editable PowerPoint objects where practical. The visual system uses a light background, restrained green/blue accents, simple cards, and a consistent page rhythm.
+
+5. Generated backgrounds or images should preferably be inserted as SVG.
+   Evidence: Generated SVG assets exist in assets/cover-hero.svg, assets/home-mockup.svg, assets/consult-mockup.svg, and assets/flow-hero.svg. PPTX package contains SVG media entries including ppt/media/image2.svg, image4.svg, image6.svg, image8.svg, image10.svg and others.
+
+6. Complete animation effects.
+   Evidence: PowerPoint COM reported animation sequence counts per slide: 8,9,9,9,9,9,9,9,9,9. Slide transition effects were all 1793, the PowerPoint fade transition effect used during post-processing.
+
+7. Illustrations/screenshots and text content should be self-generated.
+   Evidence: Deck was generated from the local app source and self-authored product narrative. Visuals were generated as SVG mockups/diagrams rather than copied screenshots from external decks.
+
+8. Check image and language logic.
+   Evidence: Fresh PowerPoint export produced 10 PNG previews at 1920x1080. A fresh contact sheet was generated at qa/fresh-contact-sheet.png and inspected. Slide 5 and slide 10 were separately inspected for AI consult logic and final verification wording.
+
+9. Check the file can open normally.
+   Evidence: PowerPoint 16.0 opened the Chinese-named final PPTX successfully, counted 10 slides, read page setup, read animations/transitions, and exported PNG previews.
+
+Known notes:
+- The deck was generated with pptxgenjs and post-processed through local PowerPoint COM automation because the available local environment did not expose the selected GitHub MCP as an installed callable server.
+- The chosen GitHub MCP reference is cited in the deck and in qa/reference-audit.txt.

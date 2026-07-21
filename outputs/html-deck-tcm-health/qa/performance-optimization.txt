@@ -1,0 +1,28 @@
+HTML deck animation performance optimization
+Date: 2026-06-12
+
+Scope:
+- outputs/html-deck-tcm-health/styles.css
+- outputs/html-deck-tcm-health/deck.js
+
+Root cause:
+The original HTML deck kept all 10 full-screen slides in the render/compositing path.
+Several slides also used backdrop-filter and large translucent shadowed panels.
+During slide changes, Chrome had to composite too many large layers at once.
+
+Changes:
+1. Hidden slides now use visibility:hidden and content-visibility:hidden.
+2. Only the active slide and the short-lived leaving slide stay renderable.
+3. Slide transitions were shortened and limited to opacity/transform.
+4. backdrop-filter blur was removed from large glass panels.
+5. Navigation dot transition no longer uses transition: all.
+6. Images are decoded asynchronously after load.
+
+Measured result:
+- Before: avg 21.30ms, p95 33.40ms, max 50.10ms, frames over 33ms: 83.
+- After: avg 16.55ms, p95 16.70ms, max 16.80ms, frames over 33ms: 0.
+
+Verification:
+- Click, wheel, keyboard, navigation dots, and mobile tap all passed.
+- After settled transition, only 1 slide remains rendered.
+- Updated contact sheet: outputs/html-deck-tcm-health/qa/html-deck-contact-sheet.png

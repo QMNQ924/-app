@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>中医云健康 App 项目汇报</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="deck-shell" aria-label="中医云健康 App HTML 演示">
+      <div class="ambient-grid"></div>
+      <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
+      <div class="deck-meta">
+        <span id="sectionName">Product Report</span>
+        <span><b id="currentPage">01</b> / 10</span>
+      </div>
+      <main id="deck" class="deck">
+        <section class="slide active cover" data-section="Product Report">
+          <div class="cover-media">
+            <img src="./assets/image2-health-hero.png" alt="中医云健康 App 主视觉" />
+          </div>
+          <div class="cover-copy">
+            <p class="eyebrow">TCM CLOUD HEALTH</p>
+            <h1>传染病<br />健康管理<br />移动端方案</h1>
+            <p class="lead">围绕传染病方向，把风险提示、问诊建议、检测记录、疾病档案和康复管理串成一条日常使用路径。</p>
+            <div class="signal-row">
+              <span>传染病方向</span>
+              <span>可运行 App</span>
+              <span>APK 实测</span>
+            </div>
+            <div class="route-line">用户进入 → 看今日风险 → 问诊/检测 → 建档随访 → 饮食运动内容闭环</div>
+          </div>
+        </section>
+
+        <section class="slide story" data-section="Narrative">
+          <div class="slide-copy wide">
+            <p class="eyebrow">NARRATIVE</p>
+            <h2>用户每天打开 App，是为了解决三个问题。</h2>
+            <p class="lead">先判断今天有没有风险，再决定要做什么，最后把记录沉淀到档案里。</p>
+          </div>
+          <div class="question-grid">
+            <article>
+              <span>01</span>
+              <h3>今天安全吗</h3>
+              <p>首页把评分、肺结核等重点风险、待办和指标摘要放在第一屏。</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>下一步做什么</h3>
+              <p>问诊、检测和疾病档案把模糊症状转成可执行动作。</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>怎样坚持管理</h3>
+              <p>膳食、运动、讲堂和个人档案承接恢复期的日常管理。</p>
+            </article>
+          </div>
+          <div class="thesis-bar">看见风险 → 获得建议 → 记录数据 → 持续随访</div>
+        </section>
+
+        <section class="slide product-split" data-section="Home">
+          <div class="slide-copy">
+            <p class="eyebrow">HOME</p>
+            <h2>首页先给答案：今天最该关注什么</h2>
+            <p class="lead">第一屏不是入口堆叠，而是把健康评分、重点疾病、待办和服务入口排出优先级。</p>
+            <div class="metrics">
+              <div><small>健康评分</small><strong>92</strong></div>
+              <div><small>重点疾病</small><strong>肺结核</strong></div>
+              <div><small>核心入口</small><strong>8 个</strong></div>
+            </div>
+            <ul class="clean-list">
+              <li>风险提示比功能入口更重要。</li>
+              <li>底部导航负责主路径，首页只放当天最常用动作。</li>
+              <li>首屏形成状态、风险和下一步行动的组合。</li>
+            </ul>
+          </div>
+          <div class="phone-stage">
+            <div class="phone-tall">
+              <img src="./assets/home.png" alt="首页健康仪表盘截图" />
+            </div>
+          </div>
+        </section>
+
+        <section class="slide consult" data-section="AI Consult">
+          <div class="phone-stage left">
+            <div class="phone-tall">
+              <img src="./assets/consult.png" alt="AI 在线问诊截图" />
+            </div>
+          </div>
+          <div class="slide-copy">
+            <p class="eyebrow">AI CONSULT</p>
+            <h2>问诊不是聊天展示，而是把症状整理成行动</h2>
+            <p class="lead">用户输入咳嗽、低热、出汗等症状后，页面给出方向判断、辨证思路和就医提醒。</p>
+            <div class="step-flow">
+              <article><span>1</span><b>输入</b><p>症状 + 时长 + 接触史</p></article>
+              <article><span>2</span><b>识别</b><p>疾病风险</p></article>
+              <article><span>3</span><b>输出</b><p>管理建议</p></article>
+            </div>
+            <div class="dark-callout">把用户说不清的症状拆成结构化信息，帮助他决定是否检测、复诊或调整生活方式。</div>
+          </div>
+        </section>
+
+        <section class="slide data-slide" data-section="Health Data">
+          <div class="slide-copy">
+            <p class="eyebrow">HEALTH DATA</p>
+            <h2>健康检测把一串数字变成风险提示</h2>
+            <p class="lead">体温、血压、血糖、心率、睡眠和步数不只是录入项，而是后续问诊和随访的依据。</p>
+            <div class="chart-card">
+              <span>7 日趋势</span>
+              <div class="bars">
+                <i style="--h:34%"></i><i style="--h:42%"></i><i style="--h:50%"></i><i style="--h:58%"></i><i style="--h:72%"></i><i style="--h:82%"></i><i style="--h:92%"></i>
+              </div>
+            </div>
+            <div class="vital-row">
+              <b>36.7°C</b><b>118/76</b><b>5.6</b><b>7.2h</b>
+            </div>
+          </div>
+          <div class="phone-stage">
+            <div class="phone-tall">
+              <img src="./assets/health.png" alt="健康检测页面截图" />
+            </div>
+          </div>
+        </section>
+
+        <section class="slide disease" data-section="Disease Management">
+          <div class="phone-stage left">
+            <div class="phone-tall">
+              <img src="./assets/chronic.png" alt="传染病管理页面截图" />
+            </div>
+          </div>
+          <div class="slide-copy">
+            <p class="eyebrow">DISEASE MANAGEMENT</p>
+            <h2>疾病档案让传染病管理有依据</h2>
+            <p class="lead">艾滋病、肺结核、病毒性肝炎、流感、手足口病都有独立管理信息，方便切换重点和持续跟踪。</p>
+            <div class="disease-list">
+              <article><b>艾滋病</b><span>依从性 / 机会感染</span></article>
+              <article class="active"><b>肺结核</b><span>规范治疗 / 通风隔离</span></article>
+              <article><b>病毒性肝炎</b><span>肝功 / 病毒载量</span></article>
+              <article><b>流感</b><span>体温 / 呼吸道症状</span></article>
+              <article><b>手足口病</b><span>皮疹 / 儿童观察</span></article>
+            </div>
+            <div class="dark-callout">疾病、症状、提醒和档案形成基础数据层，支撑长期可管。</div>
+          </div>
+        </section>
+
+        <section class="slide loop" data-section="Closed Loop">
+          <div class="slide-copy wide">
+            <p class="eyebrow">RECOVERY LOOP</p>
+            <h2>康复管理落到吃、动、学、记</h2>
+            <p class="lead">问诊和检测之后，用户需要的是可执行的生活安排。</p>
+          </div>
+          <div class="loop-grid">
+            <article><h3>膳食</h3><p>清淡高蛋白、补水、避免烟酒辛辣。</p></article>
+            <article><h3>体质</h3><p>九种体质问卷解释调理方向。</p></article>
+            <article><h3>运动</h3><p>发热期暂停，恢复期轻量活动。</p></article>
+            <article><h3>内容</h3><p>讲堂和百科承接科普、收藏、复查。</p></article>
+          </div>
+          <div class="mini-phones">
+            <div><img src="./assets/lecture.png" alt="健康讲堂截图" /><span>讲堂</span></div>
+            <div><img src="./assets/profile.png" alt="个人档案截图" /><span>档案</span></div>
+          </div>
+          <img class="flow-art" src="./assets/redesign-flow.svg" alt="" aria-hidden="true" />
+        </section>
+
+        <section class="slide tech" data-section="Engineering">
+          <div class="slide-copy wide">
+            <p class="eyebrow">ENGINEERING</p>
+            <h2>技术实现保持轻量，方便手机实测。</h2>
+            <p class="lead">本地 mock 和 localStorage 支撑完整流程，Capacitor 负责同步到 Android 项目并生成 APK。</p>
+          </div>
+          <div class="pipeline">
+            <article><b>Vite</b><span>页面构建</span></article>
+            <article><b>TypeScript</b><span>交互逻辑</span></article>
+            <article><b>localStorage</b><span>本地数据</span></article>
+            <article><b>Capacitor</b><span>Android WebView</span></article>
+            <article class="terminal"><b>APK</b><span>手机测试</span></article>
+          </div>
+          <div class="mvp-note"><b>MVP 取舍</b><span>先保证登录、问诊、检测、档案和收藏流程跑通；后端同步和真实模型作为下一阶段接入。</span></div>
+          <img class="abstract-art" src="./assets/redesign-abstract-care.svg" alt="" aria-hidden="true" />
+        </section>
+
+        <section class="slide completion" data-section="Completion">
+          <div class="slide-copy">
+            <p class="eyebrow">COMPLETION</p>
+            <h2>核心能力已经形成可演示闭环</h2>
+            <p class="lead">这版不是静态原型，关键交互都能在本地数据里产生状态变化，适合放到手机上走完整演示。</p>
+          </div>
+          <div class="dual-phones">
+            <div><img src="./assets/auth.png" alt="登录页截图" /><span>登录页</span></div>
+            <div><img src="./assets/home.png" alt="首页截图" /><span>首页</span></div>
+          </div>
+          <div class="capability-list">
+            <article><b>账号进入</b><span>登录/注册后进入首页，并保存用户状态。</span></article>
+            <article><b>数据记录</b><span>健康检测提交后更新最近记录和风险状态。</span></article>
+            <article><b>问诊反馈</b><span>输入不同症状，生成差异化的模拟 AI 建议。</span></article>
+            <article><b>内容收藏</b><span>讲堂收藏能切换，设置页可清除本地数据。</span></article>
+          </div>
+        </section>
+
+        <section class="slide roadmap" data-section="Roadmap">
+          <div class="slide-copy wide">
+            <p class="eyebrow">ROADMAP</p>
+            <h2>下一步：从演示版走向真实服务</h2>
+            <p class="lead">当前版本已经满足手机测试和课程汇报；继续扩展时，重点是数据同步、医护协作和真实模型能力。</p>
+          </div>
+          <div class="roadmap-grid">
+            <article><b>后端同步</b><span>用户档案、检测记录和收藏跨设备保存</span></article>
+            <article><b>医护端</b><span>随访任务、复诊提醒、异常指标查看</span></article>
+            <article><b>模型接入</b><span>把模拟回复替换成真实大模型服务</span></article>
+            <article><b>推送提醒</b><span>用药、复诊、检测和课程学习提醒</span></article>
+            <article><b>数据合规</b><span>权限、隐私说明和医学内容审核</span></article>
+          </div>
+          <div class="final-statement">汇报结尾：这是一个可运行的移动健康管理 App，后续升级方向清晰。</div>
+        </section>
+      </main>
+
+      <nav class="slide-nav" aria-label="幻灯片导航">
+        <button type="button" aria-label="第 1 页" class="active"></button>
+        <button type="button" aria-label="第 2 页"></button>
+        <button type="button" aria-label="第 3 页"></button>
+        <button type="button" aria-label="第 4 页"></button>
+        <button type="button" aria-label="第 5 页"></button>
+        <button type="button" aria-label="第 6 页"></button>
+        <button type="button" aria-label="第 7 页"></button>
+        <button type="button" aria-label="第 8 页"></button>
+        <button type="button" aria-label="第 9 页"></button>
+        <button type="button" aria-label="第 10 页"></button>
+      </nav>
+
+      <div class="hint">Click / Wheel / Arrow / Swipe</div>
+    </div>
+    <script src="./deck.js"></script>
+  </body>
+</html>

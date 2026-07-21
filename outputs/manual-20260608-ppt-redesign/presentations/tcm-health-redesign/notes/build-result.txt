@@ -1,0 +1,3 @@
+Deck written: C:\Users\Administrator\Documents\中医云健康app\outputs\manual-20260608-ppt-redesign\output\中医云健康App汇报-新版-v4.pptx
+Slides: 10
+Alias: C:\Users\Administrator\Documents\中医云健康app\outputs\manual-20260608-ppt-redesign\output\tcm-cloud-health-redesign-v4.pptx

@@ -1,0 +1,5 @@
+Slide size: 16:9 wide.
+Style: clean, modern, medical, light surface, green/blue/orange accents.
+Typography: Microsoft YaHei for Chinese, Consolas for data path/code.
+Proof objects: mockups, flows, trend line, disease cards, architecture diagram.
+Banned motifs: crowded card walls, fake logos, filler shapes.

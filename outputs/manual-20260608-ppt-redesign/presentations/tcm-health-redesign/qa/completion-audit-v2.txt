@@ -1,0 +1,47 @@
+TCM Cloud Health App Redesign Audit v2
+Date: 2026-06-08
+
+Final PPTX:
+C:\Users\Administrator\Documents\中医云健康app\outputs\manual-20260608-ppt-redesign\output\中医云健康App汇报-新版-v2.pptx
+
+Alias:
+C:\Users\Administrator\Documents\中医云健康app\outputs\manual-20260608-ppt-redesign\output\tcm-cloud-health-redesign-v2.pptx
+
+Evidence summary
+1. Ratio and openability
+   PowerPoint COM opened the deck successfully and reported 960x540 slide size, which is 16:9.
+
+2. Editable structure
+   The deck is built from native PowerPoint text, shapes, cards, and lines. App pages are inserted as separate screenshots rather than flattened into one composite image.
+
+3. Real app pages
+   Screenshot captures exist for auth, home, consult, health, chronic, profile, lecture and are used throughout the deck.
+
+4. image2-generated visual
+   The cover uses the locally generated image2 bitmap copied into the workspace as:
+   outputs/manual-20260608-ppt-redesign/presentations/tcm-health-redesign/assets/image2-health-hero.png
+
+5. Visual quality
+   After review, the cover was reworked to use a full-bleed generated visual with a frosted content panel. Slide 3 and Slide 4 were re-exported to remove overlap and title pressure.
+
+6. Animation
+   PowerPoint COM applied fade transitions and sequential fade entries, then exported PNG previews.
+
+7. Element QA
+   The fresh contact sheet at:
+   C:\Users\Administrator\Documents\中医云健康app\outputs\manual-20260608-ppt-redesign\presentations\tcm-health-redesign\qa\redesign-contact-sheet-v2.png
+   was reviewed after export. No obvious image stretch, overflow, or title collision remained on the inspected slides.
+
+8. MCP research
+   A PowerPoint MCP workflow reference was researched before制作, including ykuwai/ppt-mcp and trsdn/mcp-server-ppt.
+
+9. Deliverables
+   - 10-slide PPTX
+   - 1920x1080 preview PNGs
+   - screenshot capture script
+   - contact sheet
+   - QA audit
+
+Notes
+- The earlier draft deck was replaced by this v2 output.
+- No unresolved layout overflow was visible in the final checked preview set.

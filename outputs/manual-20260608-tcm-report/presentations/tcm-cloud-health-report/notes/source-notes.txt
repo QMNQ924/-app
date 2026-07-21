@@ -1,0 +1,7 @@
+Source notes
+
+1. Local app source: src/main.ts, src/styles.css, README.md, docs/design.md.
+2. Local Android build result: android/app/build/outputs/apk/debug/app-debug.apk.
+3. GitHub MCP reference selected: trsdn/mcp-server-ppt (PowerPoint MCP server and CLI).
+4. Additional search references reviewed: ykuwai/ppt-mcp, GongRzhe/Office-PowerPoint-MCP-Server, dmytro-ustynov/pptx-generator-mcp.
+5. Identity assets used: local ui-icons SVG files from public/ui-icons/.

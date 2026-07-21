@@ -1,0 +1,49 @@
+TCM Cloud Health App Redesign Audit
+Date: 2026-06-08
+
+Final PPTX:
+C:\Users\Administrator\Documents\中医云健康app\outputs\manual-20260608-ppt-redesign\output\中医云健康App汇报-新版.pptx
+
+Alias:
+C:\Users\Administrator\Documents\中医云健康app\outputs\manual-20260608-ppt-redesign\output\tcm-cloud-health-redesign.pptx
+
+What was checked
+1. 16:9 ratio
+   Evidence: PowerPoint COM opened the deck and reported SlideWidth=960, SlideHeight=540.
+
+2. Fully editable slide structure
+   Evidence: Deck was built with editable PowerPoint text boxes, shapes, cards, and lines. Screenshots were inserted as images only where true screenshots were required.
+
+3. Real app pages used as part of the visuals
+   Evidence: Captured app screenshots exist in screens/ and are used on slides 1, 3, 4, 5, 6, 7, 8, 9.
+
+4. Supplementary generated visuals
+   Evidence: Custom SVG assets were generated locally and inserted into the PPTX media package.
+
+5. Typography and proportional layout
+   Evidence: The deck was reworked after preview review to remove title overflow and overlap. Slide 3 and Slide 4 were re-exported after fixes.
+
+6. Animation and transitions
+   Evidence: PowerPoint COM post-processing applied fade transitions and sequential fade animations before export.
+
+7. File opens normally
+   Evidence: PowerPoint COM opened the Chinese-named PPTX and exported preview PNGs successfully.
+
+8. Visual QA
+   Evidence: A fresh contact sheet was generated at:
+   C:\Users\Administrator\Documents\中医云健康app\outputs\manual-20260608-ppt-redesign\presentations\tcm-health-redesign\qa\redesign-contact-sheet.png
+   Slide 3 and Slide 4 were inspected individually after the final re-export.
+
+9. image2 generation request
+   Status: attempted but the image generation service returned ServerError repeatedly in this environment.
+   Fallback used: locally generated SVG illustrations were inserted instead so the deck could still be completed with clean, editable, high-resolution visuals.
+
+Repository reference MCP researched
+- Primary reference used for workflow: ykuwai/ppt-mcp
+- Backup/reference: trsdn/mcp-server-ppt
+
+Output summary
+- 10-slide deck completed
+- 1920x1080 previews exported
+- 5x2 contact sheet created
+- App screenshot capture script created and run

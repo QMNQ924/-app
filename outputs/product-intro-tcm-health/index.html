@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>中医云健康 App - 产品介绍</title>
+    <link rel="icon" href="./assets/redesign-abstract-care.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <canvas id="healthCanvas" aria-hidden="true"></canvas>
+    <header class="topbar">
+      <a class="brand" href="#hero" aria-label="回到顶部">
+        <span class="brand-mark">云</span>
+        <span>中医云健康</span>
+      </a>
+      <nav class="topnav" aria-label="页面导航">
+        <a href="#value">价值</a>
+        <a href="#showcase">功能</a>
+        <a href="#disease">传染病管理</a>
+        <a href="#delivery">交付</a>
+      </nav>
+      <a class="nav-cta" href="../html-deck-tcm-health/index.html">打开演示稿</a>
+    </header>
+
+    <main>
+      <section id="hero" class="section hero-section is-active" data-theme="dark">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="section-inner hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">TCM CLOUD HEALTH APP</p>
+            <h1>传染病健康管理，进入移动端日常。</h1>
+            <p class="lead">围绕艾滋病、肺结核、病毒性肝炎、流感、手足口病，把风险提示、AI 问诊、健康检测、疾病档案和康复管理串成一套可运行 App。</p>
+            <div class="hero-actions">
+              <a class="primary-action" href="#showcase">查看产品体验</a>
+              <button class="secondary-action" type="button" data-scroll-target="#disease">看疾病场景</button>
+            </div>
+            <div class="hero-stats" aria-label="项目关键指标">
+              <article><b>10+</b><span>核心模块</span></article>
+              <article><b>5</b><span>传染病示例</span></article>
+              <article><b>APK</b><span>可打包测试</span></article>
+            </div>
+          </div>
+          <div class="hero-visual reveal" data-delay="120">
+            <div class="orbital-ring"></div>
+            <div class="phone-stack">
+              <figure class="phone-card phone-main"><img src="./assets/home.png" alt="中医云健康首页截图" /></figure>
+              <figure class="phone-card phone-back one"><img src="./assets/consult.png" alt="AI 问诊截图" /></figure>
+              <figure class="phone-card phone-back two"><img src="./assets/chronic.png" alt="传染病管理截图" /></figure>
+            </div>
+            <div class="floating-chip chip-risk">肺结核 · 当前关注</div>
+            <div class="floating-chip chip-score">健康评分 92</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="value" class="section value-section" data-theme="light">
+        <div class="section-inner">
+          <div class="section-head reveal">
+            <p class="eyebrow">PRODUCT VALUE</p>
+            <h2>它解决的不是“页面有没有”，而是用户每天怎么管理。</h2>
+            <p class="lead">产品介绍页把场景讲清楚：先看风险，再问诊和检测，最后沉淀到随访和康复动作里。</p>
+          </div>
+          <div class="value-switch reveal" data-delay="80">
+            <article class="value-card active" data-value="risk">
+              <span>01</span>
+              <h3>看见风险</h3>
+              <p>首页把健康评分、重点疾病风险和待办放在最前面，用户进入后直接知道今天该关注什么。</p>
+            </article>
+            <article class="value-card" data-value="consult">
+              <span>02</span>
+              <h3>获得建议</h3>
+              <p>AI 问诊把模糊症状转成结构化信息，输出辨证思路、生活建议和就医提醒。</p>
+            </article>
+            <article class="value-card" data-value="follow">
+              <span>03</span>
+              <h3>持续随访</h3>
+              <p>检测、档案、膳食、运动和讲堂内容连成恢复闭环，支持连续健康管理。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="showcase" class="section showcase-section" data-theme="dark">
+        <div class="section-inner showcase-grid">
+          <div class="showcase-copy reveal">
+            <p class="eyebrow">APP EXPERIENCE</p>
+            <h2 id="featureTitle">首页像健康指挥舱，而不是菜单页。</h2>
+            <p id="featureText" class="lead">评分、风险、待办、入口和检测摘要在首屏完成优先级排序。</p>
+            <div class="feature-controls" role="tablist" aria-label="功能截图切换">
+              <button class="active" type="button" data-feature="0">首页</button>
+              <button type="button" data-feature="1">问诊</button>
+              <button type="button" data-feature="2">检测</button>
+              <button type="button" data-feature="3">档案</button>
+              <button type="button" data-feature="4">讲堂</button>
+            </div>
+          </div>
+          <div class="showcase-stage reveal" data-delay="120" aria-live="polite">
+            <figure class="feature-phone"><img id="featureImage" src="./assets/home.png" alt="首页功能截图" /></figure>
+            <div class="feature-glow"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="disease" class="section disease-section" data-theme="light">
+        <div class="section-inner disease-grid">
+          <div class="section-head reveal">
+            <p class="eyebrow">INFECTIOUS DISEASE SCENARIO</p>
+            <h2>面向传染病方向，场景要比功能更重要。</h2>
+            <p class="lead">点击疾病标签，页面会切换风险重点、日常动作和就医提醒，体现产品不是百科堆叠。</p>
+          </div>
+          <div class="disease-panel reveal" data-delay="80">
+            <div class="disease-tabs" role="tablist" aria-label="疾病标签">
+              <button class="active" type="button" data-disease="0">肺结核</button>
+              <button type="button" data-disease="1">病毒性肝炎</button>
+              <button type="button" data-disease="2">艾滋病</button>
+              <button type="button" data-disease="3">流感</button>
+              <button type="button" data-disease="4">手足口病</button>
+            </div>
+            <div class="disease-content">
+              <div>
+                <h3 id="diseaseTitle">肺结核</h3>
+                <p id="diseaseText">重点是早发现、规范抗结核治疗、咳嗽礼仪、通风隔离和复查随访。</p>
+              </div>
+              <ul id="diseaseList">
+                <li>持续咳嗽或低热时及时检测</li>
+                <li>记录服药、复诊和体重变化</li>
+                <li>提醒通风隔离和就医红旗症状</li>
+              </ul>
+            </div>
+          </div>
+          <figure class="disease-phone reveal" data-delay="140"><img src="./assets/chronic.png" alt="传染病管理页面截图" /></figure>
+        </div>
+      </section>
+
+      <section id="delivery" class="section delivery-section" data-theme="dark">
+        <div class="section-inner">
+          <div class="section-head reveal">
+            <p class="eyebrow">DELIVERY PIPELINE</p>
+            <h2>轻量实现，但交付链路完整。</h2>
+            <p class="lead">本地 mock 和 localStorage 支撑演示闭环，Capacitor 负责同步 Android 项目和 APK 测试。</p>
+          </div>
+          <div class="pipeline reveal" data-delay="100">
+            <article><b>Vite</b><span>页面构建</span></article>
+            <article><b>TypeScript</b><span>交互逻辑</span></article>
+            <article><b>localStorage</b><span>本地数据</span></article>
+            <article><b>Capacitor</b><span>Android WebView</span></article>
+            <article class="terminal"><b>APK</b><span>手机测试</span></article>
+          </div>
+          <div class="next-grid reveal" data-delay="160">
+            <article><h3>后端同步</h3><p>用户档案、检测记录和收藏跨设备保存。</p></article>
+            <article><h3>医护端</h3><p>随访任务、复诊提醒和异常指标查看。</p></article>
+            <article><h3>模型接入</h3><p>把模拟回复替换成真实大模型服务。</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="final" class="section final-section" data-theme="light">
+        <div class="section-inner final-grid">
+          <div class="final-copy reveal">
+            <p class="eyebrow">READY TO SHOW</p>
+            <h2>这是一个可运行、可演示、可继续扩展的移动健康管理方案。</h2>
+            <p class="lead">介绍页保留产品冲击力，演示稿保留汇报节奏，App 本体保留手机测试能力。</p>
+            <div class="final-actions">
+              <a class="primary-action" href="../html-deck-tcm-health/index.html">打开 HTML 演示稿</a>
+              <a class="secondary-link" href="#hero">回到顶部</a>
+            </div>
+          </div>
+          <div class="final-phone reveal" data-delay="100">
+            <img src="./assets/profile.png" alt="个人档案截图" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="side-progress" aria-hidden="true">
+      <span></span>
+    </aside>
+    <script src="./app.js"></script>
+  </body>
+</html>

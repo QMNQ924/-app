@@ -1,0 +1,24 @@
+Product intro performance verification
+Date: 2026-06-12T08:25:03.975Z
+URL: http://127.0.0.1:5193/
+
+Interaction coverage:
+- Desktop hero, showcase, disease screenshots captured.
+- Smooth scroll across full page.
+- Feature carousel buttons clicked.
+- Disease scenario tabs clicked.
+- Mobile hero screenshot captured.
+
+Frame interval result:
+- frames: 1014
+- avg: 4.17ms
+- p95: 4.30ms
+- max: 4.40ms
+- >33.4ms frames: 0
+- >50ms frames: 0
+
+DOM state:
+- final feature title: 讲堂内容不只是列表，而是康复路径的一部分。
+- final disease title: 手足口病
+
+Result: PASS

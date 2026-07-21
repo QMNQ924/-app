@@ -1,0 +1,10 @@
+Cover with hero mockup
+Claim slide with 3 proof cards
+App architecture flow
+Home dashboard mockup
+Consult flow mockup
+Disease library panel
+Trend / data slide
+Recovery loop slide
+Content + data model slide
+Build / verification slide

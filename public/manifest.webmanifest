@@ -1,0 +1,21 @@
+{
+  "name": "中医云健康",
+  "short_name": "云健康",
+  "description": "面向传染病健康管理的中医云健康移动端应用。",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f7fb",
+  "theme_color": "#0f8f83",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "medical", "lifestyle"],
+  "lang": "zh-CN"
+}

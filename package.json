@@ -1,0 +1,26 @@
+{
+  "name": "tcm-cloud-health-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "cap:sync": "npm run build && npx cap sync android",
+    "cap:open": "npx cap open android",
+    "android:debug": "npm run cap:sync && cd android && gradlew.bat assembleDebug",
+    "android:debug:win": "set \"JAVA_HOME=D:\\jdk-17\" && set \"ANDROID_HOME=%LOCALAPPDATA%\\Android\\Sdk\" && set \"ANDROID_SDK_ROOT=%LOCALAPPDATA%\\Android\\Sdk\" && npm run cap:sync && cd android && gradlew.bat assembleDebug --no-daemon"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.1",
+    "@capacitor/core": "^6.2.1",
+    "jszip": "^3.10.1",
+    "pptxgenjs": "^4.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

@@ -1,0 +1,29 @@
+TCM Cloud Health App deck layout overlap fix v3
+Date: 2026-06-08
+
+Final PPTX:
+C:\Users\Administrator\Documents\中医云健康app\outputs\manual-20260608-ppt-redesign\output\中医云健康App汇报-新版-v3.pptx
+
+Alias:
+C:\Users\Administrator\Documents\中医云健康app\outputs\manual-20260608-ppt-redesign\output\tcm-cloud-health-redesign-v3.pptx
+
+Fix summary:
+1. Slide 6
+   Root cause: the phone mockup started inside the same vertical zone used by the large title, while the title also spanned across the phone area.
+   Change: moved the title block to the right content column, shortened the title, reduced title size, moved the phone mockup lower, and tightened the disease-list cards.
+
+2. Slide 7
+   Root cause: the large title and subtitle consumed the same top band where cards and the flow graphic started.
+   Change: shortened the headline, reserved the top band for title/subtitle only, lowered the card grid and right-side visual assets, and reduced the bottom phone mockups.
+
+3. Slide 9
+   Root cause: the proof screenshots started before the subtitle finished, causing the screenshots to cover the text area.
+   Change: shortened the headline, lowered and reduced the phone mockups, and moved the rule cards into a clean right column.
+
+Verification artifacts:
+- PowerPoint preview export: outputs/manual-20260608-ppt-redesign/presentations/tcm-health-redesign/preview-v3
+- Contact sheet: outputs/manual-20260608-ppt-redesign/presentations/tcm-health-redesign/qa/redesign-contact-sheet-v3.png
+- Inspected full-size exported previews: slides 3, 4, 6, 7, and 9.
+
+Result:
+The reported title/mockup/card overlaps on slides 6 and 7 were removed. A similar overlap on slide 9 was also fixed before final delivery.
